@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include 'user/navbar.php'; ?>
 
   <div class="home1">
     <img class="home-img" src="https://miro.medium.com/v2/resize:fit:1400/1*Dqhp5jiG8HJ-9O64F6pt2A.png" alt="">
@@ -48,7 +48,7 @@
 
     </div>
 
-       <?php include 'footer.php'; ?>
+       <?php include 'user/footer.php'; ?>
 </body>
 </html>
 
