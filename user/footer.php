@@ -6,6 +6,75 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/footer.css">
    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+   <style>
+    .footer {
+  background-color: #D0C3B8;
+  padding: 40px 80px;
+  border-top: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-logo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer-section h3 {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.newsletter {
+  display: flex;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+  max-width: 250px;
+}
+
+.newsletter input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+.newsletter button {
+  border: none;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+   </style>
 </head>
 <body>
     <footer class="footer">
