@@ -1,6 +1,4 @@
-<?php
-session_start(); // make sure session is started at the top
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
